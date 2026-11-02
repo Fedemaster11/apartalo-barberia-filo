@@ -1,27 +1,27 @@
-# Apártalo — <nombre del negocio de tu variante>
+# Apártalo — Barbería Filo
 
 > Repositorio de la **Evidencia 1** de *Proyecto de ingeniería de software* (Tecmilenio, CRN 13241).
-> Sustituye todo lo que está entre `< >` y borra las líneas de ayuda que empiezan con `>`.
 
 | Dato | |
 |---|---|
-| Estudiante | `<tu nombre>` |
-| Matrícula | `<tu matrícula>` |
-| Variante | `<número y nombre, por ejemplo: 1 — Barbería Filo>` |
-| Project (tablero) | `<enlace a tu GitHub Project>` |
+| Estudiante | Federico David Macias Orozco |
+| Matrícula | AL02990943 |
+| Variante | 1 — Barbería Filo |
+| Project (tablero) | Pendiente de crear |
 
 ## Visión del producto
-> 🎩 PO · Ejercicio 1, punto 1. De 3 a 5 líneas: qué es la app, para quién y qué problema resuelve.
 
-<tu visión>
+**Apártalo Barbería Filo** es una aplicación de reservas para los clientes de la barbería de Don Rogelio. Permite reservar servicios de corte y barba, calcular automáticamente el precio y gestionar cancelaciones. Además, incluye un sistema de fidelidad para registrar las visitas y ofrecer beneficios a los clientes frecuentes. Su objetivo es reducir las citas perdidas, organizar mejor la agenda de la barbería y facilitar el proceso de reserva.
 
 ## Mi equipo Scrum (los tres sombreros)
 
 | Sombrero | Lo que hago con él en este proyecto |
 |---|---|
-| 🎩 PO | `<...>` |
-| 🎩 SM | `<...>` |
-| 🎩 Desarrollador | `<...>` |
+| 🎩 PO | Defino y priorizo las historias de usuario, interpreto las necesidades de Don Rogelio y establezco los criterios de aceptación. |
+| 🎩 SM | Organizo el sprint, mantengo el tablero actualizado, identifico impedimentos y reviso que se siga el proceso Scrum. |
+| 🎩 Desarrollador | Diseño la solución, programo las reglas de negocio en Python y creo las pruebas unitarias y de aceptación. |
+
+
 
 ## Cómo está organizado este repositorio
 
