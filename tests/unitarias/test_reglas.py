@@ -80,3 +80,13 @@ def test_cancelacion_exactamente_24_horas_no_cobra():
 
     # Entonces
     assert cargo == 0
+    
+@pytest.mark.unitaria
+def test_cancelacion_con_horas_negativas_lanza_error():
+    # Dado
+    total = 200
+    horas_anticipacion = -1
+
+    # Cuando / Entonces
+    with pytest.raises(ValueError):
+        calcular_cargo_cancelacion(total, horas_anticipacion)
