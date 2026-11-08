@@ -15,7 +15,7 @@ def calcular_total(corte, barba, visitas_mes):
     elif barba:
         total = 120
     else:
-        return None
+        raise ValueError("Debe seleccionarse al menos un servicio")
 
     if visitas_mes >= 5:
         total -= 20
