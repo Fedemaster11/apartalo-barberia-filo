@@ -26,3 +26,6 @@ def calcular_cargo_cancelacion(total, horas_anticipacion):
 
     if 2 <= horas_anticipacion < 24:
         return total * 0.5
+
+    if horas_anticipacion >= 24:
+        return 0
