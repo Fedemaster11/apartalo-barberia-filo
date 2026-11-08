@@ -7,3 +7,6 @@ y después mejora el código sin romper las pruebas (REFACTOR).
 Si una entrada no tiene sentido (horas negativas, un servicio que no existe, etc.),
 la función debe lanzar ValueError.
 """
+def calcular_total(corte, barba, visitas_mes):
+    if corte and not barba:
+        return 180
