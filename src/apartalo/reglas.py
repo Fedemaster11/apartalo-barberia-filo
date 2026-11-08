@@ -23,3 +23,6 @@ def calcular_total(corte, barba, visitas_mes):
 def calcular_cargo_cancelacion(total, horas_anticipacion):
     if horas_anticipacion < 2:
         return total
+
+    if 2 <= horas_anticipacion < 24:
+        return total * 0.5
