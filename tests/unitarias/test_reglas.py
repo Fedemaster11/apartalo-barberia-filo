@@ -90,3 +90,16 @@ def test_cancelacion_con_horas_negativas_lanza_error():
     # Cuando / Entonces
     with pytest.raises(ValueError):
         calcular_cargo_cancelacion(total, horas_anticipacion)
+        
+@pytest.mark.unitaria
+def test_barba_cuesta_120():
+    # Dado
+    corte = False
+    barba = True
+    visitas_mes = 0
+
+    # Cuando
+    total = calcular_total(corte, barba, visitas_mes)
+
+    # Entonces
+    assert total == 120
