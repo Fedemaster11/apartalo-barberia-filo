@@ -114,3 +114,19 @@ def test_sin_servicio_lanza_error():
     # Cuando / Entonces
     with pytest.raises(ValueError):
         calcular_total(corte, barba, visitas_mes)
+    
+@pytest.mark.unitaria
+def test_no_show_cobra_100_por_ciento():
+    # Dado
+    total = 200
+    horas_anticipacion = 48
+
+    # Cuando
+    cargo = calcular_cargo_cancelacion(
+        total,
+        horas_anticipacion,
+        no_show=True
+    )
+
+    # Entonces
+    assert cargo == 200
