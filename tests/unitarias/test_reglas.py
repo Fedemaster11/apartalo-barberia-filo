@@ -1,6 +1,6 @@
 import pytest
 
-from apartalo.reglas import calcular_total, calcular_cargo_cancelaciones
+from apartalo.reglas import calcular_total, calcular_cargo_cancelacion
 
 
 @pytest.mark.unitaria
