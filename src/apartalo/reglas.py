@@ -10,8 +10,10 @@ la función debe lanzar ValueError.
 def calcular_total(corte, barba, visitas_mes):
     if corte and barba:
         total = 255
-    elif corte and not barba:
+    elif corte:
         total = 180
+    elif barba:
+        total = 120
     else:
         return None
 
@@ -19,6 +21,7 @@ def calcular_total(corte, barba, visitas_mes):
         total -= 20
 
     return total
+
 
 def calcular_cargo_cancelacion(total, horas_anticipacion):
     if horas_anticipacion < 0:
