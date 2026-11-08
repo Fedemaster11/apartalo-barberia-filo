@@ -8,8 +8,14 @@ Si una entrada no tiene sentido (horas negativas, un servicio que no existe, etc
 la función debe lanzar ValueError.
 """
 def calcular_total(corte, barba, visitas_mes):
-    if corte and  barba:
-        return 255
-    
-    if corte and not barba:
-            return 180
+    if corte and barba:
+        total = 255
+    elif corte and not barba:
+        total = 180
+    else:
+        return None
+
+    if visitas_mes >= 5:
+        total -= 20
+
+    return total
