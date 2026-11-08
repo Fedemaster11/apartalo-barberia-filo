@@ -103,3 +103,14 @@ def test_barba_cuesta_120():
 
     # Entonces
     assert total == 120
+    
+@pytest.mark.unitaria
+def test_sin_servicio_lanza_error():
+    # Dado
+    corte = False
+    barba = False
+    visitas_mes = 0
+
+    # Cuando / Entonces
+    with pytest.raises(ValueError):
+        calcular_total(corte, barba, visitas_mes)
