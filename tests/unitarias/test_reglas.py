@@ -32,3 +32,15 @@ def test_corte_y_barba_tienen_15_por_ciento_descuento():
     assert total == 255
     
     
+@pytest.mark.unitaria
+def test_cliente_frecuente_recibe_20_pesos_de_descuento():
+    # Dado
+    corte = True
+    barba = True
+    visitas_mes = 5
+
+    # Cuando
+    total = calcular_total(corte, barba, visitas_mes)
+
+    # Entonces
+    assert total == 235
