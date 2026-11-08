@@ -68,3 +68,15 @@ def test_cancelacion_exactamente_2_horas_cobra_50_por_ciento():
 
     # Entonces
     assert cargo == 100
+    
+@pytest.mark.unitaria
+def test_cancelacion_exactamente_24_horas_no_cobra():
+    # Dado
+    total = 200
+    horas_anticipacion = 24
+
+    # Cuando
+    cargo = calcular_cargo_cancelacion(total, horas_anticipacion)
+
+    # Entonces
+    assert cargo == 0
