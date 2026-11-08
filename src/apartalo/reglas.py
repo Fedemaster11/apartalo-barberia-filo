@@ -23,9 +23,12 @@ def calcular_total(corte, barba, visitas_mes):
     return total
 
 
-def calcular_cargo_cancelacion(total, horas_anticipacion):
+def calcular_cargo_cancelacion(total, horas_anticipacion, no_show=False):
     if horas_anticipacion < 0:
         raise ValueError("Las horas de anticipación no pueden ser negativas")
+
+    if no_show:
+        return total
 
     if horas_anticipacion < 2:
         return total
