@@ -97,25 +97,27 @@ Por ejemplo, en la historia #15 un criterio de aceptación es que una cancelaci�
 
 | Historia | ¿Cumple sus criterios? | ¿Aceptada? | Evidencia |
 |---|---|---|---|
-| #5 | Pendiente de pruebas | Pendiente | Se completará después del Ejercicio 6 |
-| #15 | Pendiente de pruebas | Pendiente | Se completará después del Ejercicio 6 |
-| #16 | Pendiente de pruebas | Pendiente | Se completará después del Ejercicio 6 |
-| #17 | Pendiente de pruebas | Pendiente | Se completará después del Ejercicio 6 |
-| #7 | Pendiente de pruebas | Pendiente | Se completará después del Ejercicio 6 |
+| #5 — Ver el total antes de confirmar la reserva | Cumple los criterios relacionados con el cálculo correcto del total, incluyendo servicio combinado y descuento de cliente frecuente. La visualización en una interfaz queda fuera del alcance del código de este sprint. | Parcialmente | Pruebas de aceptación de R1 en `tests/aceptacion/test_total_aceptacion.py` y storyboard de la pantalla. |
+| #15 — Cancelar una cita con 24 horas o más | Se comprobó que con exactamente 24 horas y con más de 24 horas el cargo es $0. Queda pendiente registrar el estado de la cita como cancelada. | Parcialmente | Pruebas unitarias y pruebas de aceptación de R2. |
+| #16 — Cancelar una cita entre 2 y 24 horas | Sí. Con exactamente 2 horas y con más de 2 pero menos de 24 horas se cobra el 50 % del total. Las 24 horas exactas quedan fuera de este rango. | Sí | `test_cancelacion_exactamente_2_horas_cobra_50_por_ciento` y pruebas parametrizadas de aceptación de R2. |
+| #17 — Cancelar una cita con menos de 2 horas | Se comprobó que con menos de 2 horas se cobra el 100 % del total y que exactamente 2 horas no pertenece a este rango. Queda pendiente registrar el estado de la cita como cancelada. | Parcialmente | Pruebas unitarias y pruebas de aceptación de R2. |
+| #7 — Registrar un no-show | Se comprobó correctamente que un no-show genera un cargo del 100 % del total. Queda pendiente almacenar o identificar el estado de la cita como no-show. | Parcialmente | `test_no_show_cobra_100_por_ciento` y prueba de aceptación de no-show. |
 
-**Cambio que pediría mi cliente → historia nueva:** Pendiente de la revisión del sprint.
+La suite completa de pruebas terminó con **22 pruebas aprobadas**.
+
+**Cambio que pediría mi cliente → historia nueva:** Pendiente de crear como nueva historia del backlog.
 
 ## D. Retrospectiva
 > 🎩 SM facilita
 
 **¿Qué salió bien?**
 
-Pendiente de completar al finalizar el Sprint 1.
+El refinamiento previo permitió dividir la regla de cancelación en historias pequeñas y fáciles de probar. El uso de TDD ayudó a implementar las reglas de forma incremental, escribiendo primero una prueba que fallaba y después el código mínimo para hacerla pasar. Los valores límite de 2 y 24 horas quedaron cubiertos explícitamente y la suite completa terminó con 22 pruebas aprobadas.
 
 **¿Qué hay que mejorar?**
 
-Pendiente de completar al finalizar el Sprint 1.
+Algunas historias mezclan reglas de negocio con comportamientos de interfaz o almacenamiento de estado. Por ejemplo, una historia puede pedir calcular correctamente un cargo y al mismo tiempo registrar la cita como cancelada. En el siguiente sprint conviene separar mejor estos comportamientos para que las historias sean más pequeñas y puedan cumplir completamente todos sus criterios de aceptación.
 
 **Acciones para el Sprint 2:**
-1. Pendiente de definir después de la retrospectiva.
-2. Pendiente de definir después de la retrospectiva.
+1. Dividir las historias que mezclen cálculo, interfaz y actualización de estado en historias independientes y más pequeñas.
+2. Agregar pruebas para los estados de las citas y continuar utilizando TDD para cubrir los valores límite desde el inicio.
