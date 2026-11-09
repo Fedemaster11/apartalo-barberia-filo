@@ -57,13 +57,13 @@ Para R2 se incluyen los límites de 24 horas y 2 horas, además del caso de no-s
 
 > Escríbela antes de programar. Al terminar el Ejercicio 6, agrega la columna "Resultado real" y marca cada fila: ✅ si pasó, ❌ si falló (con el valor esperado y el real).
 
-| Total de la cita | Horas de anticipación | No-show | Resultado esperado | Resultado real |
-|---:|---:|---|---:|---|
-| 200 | 48 | No | $0 | — |
-| 200 | 24 | No | $0 | — |
-| 200 | 23 | No | $100 | — |
-| 200 | 2 | No | $100 | — |
-| 200 | 1 | No | $200 | — |
-| 200 | — | Sí | $200 | — |
+| Total | Horas antes | No-show | Cargo esperado | Resultado real |
+|---:|---:|:---:|---:|---:|
+| 200 | 48 | No | 0 | ✅ 0 |
+| 200 | 24 | No | 0 | ✅ 0 |
+| 200 | 23 | No | 100 | ✅ 100 |
+| 200 | 2 | No | 100 | ✅ 100 |
+| 200 | 1 | No | 200 | ✅ 200 |
+| 200 | — | Sí | 200 | ✅ 200 |
 
-La columna "Resultado real" se completará después de ejecutar las pruebas del Ejercicio 6.
+Los resultados reales fueron obtenidos mediante las pruebas de aceptación implementadas en el Ejercicio 6. Todos los casos de la tabla FIT coincidieron con el resultado esperado.
