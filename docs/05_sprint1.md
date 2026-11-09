@@ -105,7 +105,7 @@ Por ejemplo, en la historia #15 un criterio de aceptación es que una cancelaci�
 
 La suite completa de pruebas terminó con **22 pruebas aprobadas**.
 
-**Cambio que pediría mi cliente → historia nueva:** Pendiente de crear como nueva historia del backlog.
+**Cambio que pediría mi cliente → historia nueva:** #18 — HU: Mostrar desglose del precio antes de confirmar. Esta historia surge de la revisión del Sprint 1 y queda en el backlog para trabajo futuro.
 
 ## D. Retrospectiva
 > 🎩 SM facilita
