@@ -1,0 +1,22 @@
+Title	URL	Assignees	Status	Linked pull requests	Sub-issues progress	Prioridad	Puntos	Sprint	inicio	Terminado
+HU: Cancelar una cita con 24 horas o más	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/15		Pruebas Listo			Must	3	Sprint1	Nov 8, 2026	
+HU: Registrar un no-show	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/7		Pruebas Listo			Should	3	Sprint1	Nov 8, 2026	
+HU: Cancelar una cita con menos de 2 horas	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/17		Desarrollo Listo			Must	3	Sprint1	Nov 8, 2026	
+HU: Ver el total antes de confirmar la reserva	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/5		Pruebas			Must	5	Sprint1	Nov 8, 2026	
+HU:  Cancelar una cita entre 2 y 24 horas	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/16		Liberación			Must	3	Sprint1	Nov 8, 2026	Nov 9, 2026
+HU: Reservar un Corte de pelo	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/1		Historias			Must	3			
+HU: Reservar servicio de barba	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/2		Historias			Must	3			
+HU: Reservar corte y barba juntos	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/3		Historias			Must	5			
+HU: Aplicar descuento a cliente frecuente	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/4		Historias			Must	5			
+HU: Cancelar una cita según el tiempo de anticipación	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/6		Desarrollo			Must	13			
+HU:  Evitar más de una cita por cliente al día	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/8		Historias			Should	5			
+HU:  Limitar a tres citas por horario	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/9		Historias			Should	5			
+HU:  Consultar horarios disponibles	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/10		Historias			Should	5			
+HU: Registrar una cita completada	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/11		Historias			Should	3			
+HU:  Consultar la agenda del día	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/12		Historias			could				
+EPICA: Programa de fidelidad de clientes	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/13		Historias			wont				
+EPICA: Administración de agenda y reservas	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/14		Historias			wont	3			
+HU: Mostrar desglose del precio antes de confirmar	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/18		Historias			Must	3			
+RNF: Soportar la carga de reservas en hora pico	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/19		Historias							
+RNF: Rechazar entradas inválidas sin fallar	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/20		Historias							
+RNF: Mantener integración continua de los cambios	https://github.com/Fedemaster11/apartalo-barberia-filo/issues/21		Historias							
